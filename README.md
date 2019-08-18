@@ -12,7 +12,7 @@
 
 ## To start the server
 1. `python app.py`
-2. On your browser type: localhost:5000 and press enter.
+2. On your browser type: `localhost:5000` and press enter.
 
 ## To start working
 1. Activate virtual environment: `source venv/bin/activate`
