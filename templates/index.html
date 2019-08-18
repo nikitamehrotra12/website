@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Clone-Survey</title>
+    <title>Clone or not?</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -10,9 +10,31 @@
 
   <body>
     <div class="container">
-      <h1>Welcome to Flask!</h2>
+	    <<center><h1>Thanks for joining this study</h1></center>
       <br>
-      <p>Click <a href="/">here</a> to go home.</p>
+      <center>	 
+      <form action="" method="POST">
+                    <h3>
+                        Login to begin the study!
+                    </h3>
+		    <br>
+		    <div class="row">
+                        <div class="col-sm-3 col-md-3 col-lg-3">
+                             <center> 
+				     <input class="form-control" id="unamefield" type="text" 
+                            name="userid" required value="{{ request.form.userid }}"
+                            placeholder="UserID">
+			     </center> 
+			</div>
+                        <br><br>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3 col-md-3 col-lg-3">
+                            <input type="submit" class="btn btn-danger btn-lg btn-block" id="fat-btn" value="Sign In">
+                        </div>
+                    </div>
+                </form>
+      </center>
     </div>
   </body>
 
