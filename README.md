@@ -1,7 +1,5 @@
 # Clone-Survey
 
-## To start the server
-`python app.py`
 
 ## Initial setup
 1. Clone the repository.
@@ -10,6 +8,11 @@
 4. `virtualenv venv`
 5. `source venv/bin/activate`
 6. `pip install -r requirements.txt`
+
+
+## To start the server
+`python app.py`
+On your browser type: localhost:5000 and press enter.
 
 ## To start working
 1. Activate virtual environment: `source venv/bin/activate`
